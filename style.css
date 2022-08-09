@@ -1,0 +1,121 @@
+:root{
+     --blue-color: rgb(8, 8, 53); 
+     --primary-light: rgb(33, 225, 225);
+     --bg-color1: rgb(92, 191, 72);
+     --bg-color2: rgb(165, 201, 202);
+     --notice: rgb(78, 159, 61);
+     --text-1: rgb(125, 206, 19);
+     --text-2: rgb(94, 69, 75);
+     --clr-1: rgb(51, 49, 44);
+}
+body{
+    background-color: var(--bg-color1);
+    margin: 0;
+    padding: 0;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  background-color: var(--clr-1);
+  list-style: none;
+  font-size: larger; 
+  overflow: hidden;
+}
+
+li {
+    float: right;
+  }
+
+li a{
+    color: var(--text-1);
+   padding: 10px 14px;
+   margin: 10px;
+   text-decoration: none;
+   display: block;
+}
+ul > li:nth-child(1) {
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(125, 206, 19);
+  }
+li:hover{
+  background-color: var(--blue-color) ;
+}
+#logo{
+  background-color: var(--clr-1);
+}
+.massage{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  color: var(--blue-color);
+  position: sticky;
+  top: 0%;
+}
+main{
+  height: 125vh;
+}
+#banner > img
+{
+width: 100%;
+aspect-ratio: 3/1.2;
+}
+.burger{
+  width: 250px;
+  border-radius: 5px;
+  background-image: linear-gradient(to top, #d49500, #ffffff) ;
+  text-align: justify;
+  position: relative;
+  padding: 15px;
+  margin: 25px;
+  top: -50px;
+  transition : all .5s linear;
+  font-family: "Brush Script MT", cursive;
+  
+}
+h3 p{
+  margin: 0px;
+}
+
+.burger:hover
+{
+  top: -120px;
+}
+#b1{
+  display: flex;
+  justify-content: center;
+}
+.firstim{
+  width: 300px;
+  height: 200px;
+  margin: 40px;
+  border-radius: 8px;
+}
+.pizza{
+  width: 300px;
+height: 200px;
+margin: 40px;
+border-radius: 8px;
+}
+.pasta{
+width: 300px;
+height: 200px;
+margin: 40px;
+border-radius: 8px;
+}
+.text{
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Brush Script MT", cursive;
+
+}
+#B{
+  text-align: center;
+}
+#P{
+  text-align: center;
+}
+#S{
+ text-align: center;
+}
+
+
